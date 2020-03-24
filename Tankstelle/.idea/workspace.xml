@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6e1855b6-3eba-4c36-96c5-9f620a29506d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZW7kZVay8FJQ0sQNYx7RHqjiko" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../kommentierte Dateien/I_Messenger_mit_Kommentaren" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Tankstelle" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e1855b6-3eba-4c36-96c5-9f620a29506d" name="Default Changelist" comment="" />
+      <created>1584943139556</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584943139556</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="120" width="814" height="728" key="#Intentions" timestamp="1584945439234">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="446" y="120" width="814" height="728" key="#Intentions/2560.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1584945439234" />
+    <state x="659" y="178" key="#com.intellij.ide.util.MemberChooser" timestamp="1585045889066">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="659" y="178" key="#com.intellij.ide.util.MemberChooser/2560.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1585045889066" />
+    <state x="603" y="37" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584952097630">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="603" y="37" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/2560.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1584952097630" />
+    <state x="634" y="217" key="FileChooserDialogImpl" timestamp="1584953336400">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="634" y="217" key="FileChooserDialogImpl/2560.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1584953336400" />
+    <state width="1663" height="29" key="GridCell.Tab.0.bottom" timestamp="1585047027409">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="29" key="GridCell.Tab.0.bottom/2560.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1585047027409" />
+    <state width="1663" height="29" key="GridCell.Tab.0.center" timestamp="1585047027409">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="29" key="GridCell.Tab.0.center/2560.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1585047027409" />
+    <state width="1663" height="29" key="GridCell.Tab.0.left" timestamp="1585047027409">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="29" key="GridCell.Tab.0.left/2560.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1585047027409" />
+    <state width="1663" height="29" key="GridCell.Tab.0.right" timestamp="1585047027409">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="29" key="GridCell.Tab.0.right/2560.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1585047027409" />
+    <state x="355" y="104" key="SettingsEditor" timestamp="1585040879163">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="355" y="104" key="SettingsEditor/2560.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1585040879163" />
+  </component>
+</project>
