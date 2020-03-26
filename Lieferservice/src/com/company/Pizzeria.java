@@ -112,7 +112,7 @@ public class Pizzeria {
 
     public void printBill() {
         double sum = 0;
-        System.out.println("********** " + this.name + " ***********\n");
+        System.out.println("********** " + this.name + " **********\n");
         System.out.println("************ R E C H N U N G *************\n\n");
         for (int i = 0; i < orderedPizzaCounter; i++){
             System.out.print((i +1) + ". PIZZA " + orderedPizzaArr[i].name.toUpperCase() +"\t\t");
@@ -144,13 +144,14 @@ public class Pizzeria {
         System.out.print(priceDeliveryService < 10 ? " " : "");
         System.out.println(String.format("%.2f",priceDeliveryService) + " €");
         sum += priceDeliveryService;
-        System.out.println("\n\n-----------------------------------------");
+        System.out.println("\n\n------------------------------------------");
         System.out.println("\nGESAMT\t \t \t \t \t \t \t" + String.format("%.2f", sum) + " €\n\n");
-        System.out.println("Lieferadresse:\n" + deliveryService.getRoadInklHouseNumber());
+        System.out.println("Lieferadresse:\n" + deliveryService.getRoadInclHouseNumber());
         System.out.println(deliveryService.getPostcode() + "  " + deliveryService.getCity());
-        System.out.println(deliveryService.getTelefonNumber());
-        System.out.println("Ihr Zustellfahrer:\n" + deliveryService.getDriver().firstname +
-                " " + deliveryService.getDriver().lastname);
+        System.out.println(deliveryService.getPhoneNumber());
+        System.out.println("Ihr Zustellfahrer:\n" + deliveryService.getDriver().firstName +
+                " " + deliveryService.getDriver().lastName);
+        System.out.println("\n******************************************");
     }
 
     DeliveryService deliveryService;

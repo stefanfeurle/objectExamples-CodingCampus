@@ -89,8 +89,5 @@ public class Main {
         System.out.println("Marc receives: " + mySlack.getMessage());
         marcsSlack.sendMessage("Hello Stefani du pussy");
         System.out.println("Stefan receives: " + marcsSlack.getMessage());
-
-
-
     }
 }

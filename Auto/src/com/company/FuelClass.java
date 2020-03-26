@@ -22,15 +22,4 @@ public class FuelClass {
                 return 0;
         }
     }
-
-    public static double getMyServicPrice(Fuel fuel) {
-        switch (fuel){
-            case DIESEL:
-                return 590;
-            case PETROL:
-                return 490;
-            default:
-                return 0;
-        }
-    }
 }

@@ -1,7 +1,7 @@
 package com.company;
 
 public enum TiresBrand {
-    MICHELLIN,
+    MICHELIN,
     CONTINENTAL,
     KLEBER
 }

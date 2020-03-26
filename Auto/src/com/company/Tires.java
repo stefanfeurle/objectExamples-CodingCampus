@@ -16,8 +16,8 @@ public class Tires {
 
     public static String getMyTiresBrandName(TiresBrand tiresBrand){
         switch (tiresBrand){
-            case MICHELLIN:
-                return "Michellin";
+            case MICHELIN:
+                return "Michelin";
             case CONTINENTAL:
                 return "Continental";
             case KLEBER:

@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3ae49b5-0b94-4202-b0b4-276a7cada8c8" name="Default Changelist" comment="" />
+    <list default="true" id="a3ae49b5-0b94-4202-b0b4-276a7cada8c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../GeometrischeFormen_abstract/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GeometrischeFormen_abstract/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../I_Messenger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../I_Messenger/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../I_Messenger/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../I_Messenger/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../I_Shop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../I_Shop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../I_Shop/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../I_Shop/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lieferservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lieferservice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lieferservice/src/com/company/DeliveryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lieferservice/src/com/company/DeliveryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lieferservice/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lieferservice/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lieferservice/src/com/company/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lieferservice/src/com/company/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lieferservice/src/com/company/Pizzeria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lieferservice/src/com/company/Pizzeria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tankstelle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tankstelle/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +38,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -79,22 +93,22 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="634" y="217" key="FileChooserDialogImpl/2560.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1584889074076" />
-    <state width="1663" height="2" key="GridCell.Tab.0.bottom" timestamp="1584905882638">
+    <state width="1663" height="245" key="GridCell.Tab.0.bottom" timestamp="1585061028108">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="2" key="GridCell.Tab.0.bottom/2560.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1584905882638" />
-    <state width="1663" height="2" key="GridCell.Tab.0.center" timestamp="1584905882637">
+    <state width="1663" height="245" key="GridCell.Tab.0.bottom/2560.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1585061028108" />
+    <state width="1663" height="245" key="GridCell.Tab.0.center" timestamp="1585061028108">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="2" key="GridCell.Tab.0.center/2560.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1584905882637" />
-    <state width="1663" height="2" key="GridCell.Tab.0.left" timestamp="1584905882637">
+    <state width="1663" height="245" key="GridCell.Tab.0.center/2560.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1585061028108" />
+    <state width="1663" height="245" key="GridCell.Tab.0.left" timestamp="1585061028108">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="2" key="GridCell.Tab.0.left/2560.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1584905882637" />
-    <state width="1663" height="2" key="GridCell.Tab.0.right" timestamp="1584905882638">
+    <state width="1663" height="245" key="GridCell.Tab.0.left/2560.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1585061028108" />
+    <state width="1663" height="245" key="GridCell.Tab.0.right" timestamp="1585061028108">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="2" key="GridCell.Tab.0.right/2560.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1584905882638" />
+    <state width="1663" height="245" key="GridCell.Tab.0.right/2560.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1585061028108" />
     <state x="304" y="82" key="new project wizard" timestamp="1585056725507">
       <screen x="0" y="0" width="1707" height="920" />
     </state>

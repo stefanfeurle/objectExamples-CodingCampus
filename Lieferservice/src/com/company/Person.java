@@ -1,13 +1,13 @@
 package com.company;
 
 public class Person {
-    String firstname;
-    String lastname;
+    String firstName;
+    String lastName;
     double cash;
 
-    public Person(String firstname, String lastname, double cash) {
-        this.firstname = firstname;
-        this.lastname = lastname;
+    public Person(String firstName, String lastName, double cash) {
+        this.firstName = firstName;
+        this.lastName = lastName;
         this.cash = cash;
     }
 }

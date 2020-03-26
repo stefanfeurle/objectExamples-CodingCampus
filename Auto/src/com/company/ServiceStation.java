@@ -8,11 +8,12 @@ public class ServiceStation {
     public ServiceStation(Person owner, String name, double cash) {
         this.owner = owner;
         this.name = name;
+
         this.cash = cash;
     }
 
-    public void serviceService(Car car) {
-        double price = FuelClass.getMyServicPrice(car.fuel);
+    public void makeService(Car car) {
+        double price = getMyServicPrice(car.fuel);
         if (car.owner.cash < price) {
             System.out.println("Sie haben zu wenig Geld für den Service!");
         }else {
@@ -24,7 +25,7 @@ public class ServiceStation {
         }
     }
 
-    public void serviceChangeTires(Car car, Tires tires) {
+    public void changeTires(Car car, Tires tires) {
         if (car.owner.cash < tires.price) {
             System.out.println("Sie haben zu wenig Geld für die neuen Reifen!");
         }else {
@@ -36,8 +37,18 @@ public class ServiceStation {
         }
     }
 
-    public void serviceChangeTiresInkludedService(Car car, Tires tires){
-        serviceService(car);
-        serviceChangeTires(car,tires);
+    public void changeTiresAndMakeService(Car car, Tires tires){
+        makeService(car);
+        changeTires(car,tires);
+    }
+    public static double getMyServicPrice(Fuel fuel) {
+        switch (fuel){
+            case DIESEL:
+                return 590;
+            case PETROL:
+                return 490;
+            default:
+                return 0;
+        }
     }
 }

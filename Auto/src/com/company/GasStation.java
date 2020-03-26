@@ -21,10 +21,7 @@ public class GasStation {
         else if ((car.fuelLevel + liter) > car.tankSize) {
             liter = car.tankSize - car.fuelLevel;
             if (liter == 0) {
-                System.out.println("Der Tank ist schon voll!");
-            }
-            else if (liter > 0) {
-                System.out.println("Sie können nicht so viel tanken, weil der Tank vorher voll ist!");
+                System.out.println("Der Tank des " + car.brand + " ist schon voll!");
             }
         }
         if (price * liter > car.owner.cash) {

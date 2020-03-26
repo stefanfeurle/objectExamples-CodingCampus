@@ -222,9 +222,9 @@ public class Main {
             System.out.println("Bitte die Postleitzahl!");
             delivery.setPostcode(scanNum.nextInt());
             System.out.println("Bitte die Straße und die Hausnummer!");
-            delivery.setRoadInklHouseNumber(scanText.nextLine());
+            delivery.setRoadInclHouseNumber(scanText.nextLine());
             System.out.println("Bitte eine Telefonnummer unter der wir sie jederzeit erreichen!");
-            delivery.setTelefonNumber(scanText.nextLine());
+            delivery.setPhoneNumber(scanText.nextLine());
             System.out.println("\n\n");
             casa.printBill();
         } else {

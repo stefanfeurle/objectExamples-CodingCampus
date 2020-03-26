@@ -41,4 +41,4 @@ public class Main {
         atmCard.shop = shop;
 
     }
-}
+            }

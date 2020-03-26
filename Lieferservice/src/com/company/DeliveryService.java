@@ -8,8 +8,8 @@ public class DeliveryService {
     private Person driver;
     private int postcode;
     private String city;
-    private String roadInklHouseNumber;
-    private String telefonNumber;
+    private String roadInclHouseNumber;
+    private String phoneNumber;
 
     public DeliveryService(String car, String brand, String fuel, String licensePlate, Person driver) {
         this.car = car;
@@ -46,8 +46,8 @@ public class DeliveryService {
         return price;
     }
 
-    public void setTelefonNumber(String telefonNumber) {
-        this.telefonNumber = telefonNumber;
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 
     public void setDriver(Person driver) {
@@ -62,8 +62,8 @@ public class DeliveryService {
         this.city = city;
     }
 
-    public void setRoadInklHouseNumber(String roadInklHouseNumber) {
-        this.roadInklHouseNumber = roadInklHouseNumber;
+    public void setRoadInclHouseNumber(String roadInclHouseNumber) {
+        this.roadInclHouseNumber = roadInclHouseNumber;
     }
 
     public Person getDriver() {
@@ -78,11 +78,11 @@ public class DeliveryService {
         return city;
     }
 
-    public String getRoadInklHouseNumber() {
-        return roadInklHouseNumber;
+    public String getRoadInclHouseNumber() {
+        return roadInclHouseNumber;
     }
 
-    public String getTelefonNumber() {
-        return telefonNumber;
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 }
