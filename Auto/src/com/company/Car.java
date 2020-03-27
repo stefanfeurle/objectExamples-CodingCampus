@@ -81,6 +81,11 @@ public class Car {
     }
     */
 
+    @Override
+    public String toString() {
+        return this.brand;
+    }
+
     public void setTires(Tires tires) {
         this.tires = tires;
     }

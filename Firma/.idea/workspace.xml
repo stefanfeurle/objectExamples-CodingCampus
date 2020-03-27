@@ -2,42 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="994e7374-a5cd-44a7-802d-be87eb1c9aa6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Abteilungen_java.io/Abteilungen_java.io.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Auto/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Auto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/FuelClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/FuelClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/GasStation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/GasStation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/ServiceStation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/ServiceStation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/Tires$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/Tires$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/Tires.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/Tires.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/TiresBrand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/TiresBrand.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Auto/src/com/company/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/src/com/company/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto/src/com/company/FuelClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/src/com/company/FuelClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto/src/com/company/GasStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/src/com/company/GasStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto/src/com/company/ServiceStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/src/com/company/ServiceStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto/src/com/company/Tires.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/src/com/company/Tires.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto/src/com/company/TiresBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/src/com/company/TiresBrand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GeometrischeFormen_abstract/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GeometrischeFormen_abstract/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GeometrischeFormen_abstract/out/production/GeometrischeFormen_abstract/com/company/GeometricFigure.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GeometrischeFormen_abstract/out/production/GeometrischeFormen_abstract/com/company/GeometricFigure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GeometrischeFormen_abstract/out/production/GeometrischeFormen_abstract/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GeometrischeFormen_abstract/out/production/GeometrischeFormen_abstract/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I_Messenger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../I_Messenger/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I_Messenger/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../I_Messenger/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I_Shop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../I_Shop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I_Shop/out/production/I_Shop/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../I_Shop/out/production/I_Shop/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I_Shop/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../I_Shop/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lieferservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lieferservice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lieferservice/out/production/Lieferservice/com/company/Pizzeria.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lieferservice/out/production/Lieferservice/com/company/Pizzeria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lieferservice/src/com/company/DeliveryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lieferservice/src/com/company/DeliveryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lieferservice/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lieferservice/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lieferservice/src/com/company/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lieferservice/src/com/company/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lieferservice/src/com/company/Pizzeria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lieferservice/src/com/company/Pizzeria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Musiker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Musiker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tankstelle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tankstelle/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
