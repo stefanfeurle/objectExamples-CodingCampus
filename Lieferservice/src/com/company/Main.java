@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -158,63 +159,107 @@ public class Main {
         Scanner scanText = new Scanner(System.in);
 
         System.out.println("\n Hier können sie Köstlichkeiten der " + casa.name + " online bestellen!\n");
-        int controllNumber = 1;
+        int controlNumber = 1;
 
-        while (controllNumber != 0) {
+        while (controlNumber == 1) {
             int menuenumber = 0;
-
-            while (menuenumber < 1 || menuenumber > casa.mealCounter) {
-                casa.printMenue();
-                System.out.println("\nBitte wählen sie ein Pizza anhand der Nummer aus!\n");
-                menuenumber = scanNum.nextInt();
+            boolean correctInput = false;
+            while (!correctInput) {
+                try {
+                    while (menuenumber < 1 || menuenumber > casa.mealCounter) {
+                        casa.printMenue();
+                        System.out.println("\nBitte wählen sie ein Pizza anhand der Nummer aus!\n");
+                        menuenumber = scanNum.nextInt();
+                        correctInput = true;
+                    }
+                } catch (InputMismatchException ignored) {
+                    System.out.println("Da ist ihnen eine falsche Eingabe passiert!");
+                    scanNum = new Scanner(System.in);
+                }
             }
             casa.saveOrderedPizza(menuenumber);
-            casa.printIngredientOrderedMeal();
 
-            System.out.println("\nMöchten sie eine der Zutaten entfernen?\nWenn ja, wählen sie eine Nummer aus!\n" +
-                    "0 ... keine Zutat entfernen!\n");
-            int removeIngredientArrayNumber = scanNum.nextInt();
-            boolean isRemoveIngredient = casa.removeIngredient(removeIngredientArrayNumber);
-
-            while (isRemoveIngredient) {
+            correctInput = false;
+            while (!correctInput) {
                 casa.printIngredientOrderedMeal();
-                System.out.println("\nMöchten sie eine weitere Zutat entfernen!\nWenn ja, wählen sie eine Nummer aus!\n" +
-                        "0 ... keine Zutat entfernen!\n");
-                removeIngredientArrayNumber = scanNum.nextInt();
-                isRemoveIngredient = casa.removeIngredient(removeIngredientArrayNumber);
+                try {
+                    System.out.println("\nMöchten sie eine der Zutaten entfernen?\nWenn ja, wählen sie eine Nummer aus!\n" +
+                            "0 ... keine Zutat entfernen!\n");
+                    int removeIngredientArrayNumber = scanNum.nextInt();
+                    boolean isRemoveIngredient = casa.removeIngredient(removeIngredientArrayNumber);
+                    if (!isRemoveIngredient) {
+                        correctInput = true;
+                    }
+
+                    while (isRemoveIngredient) {
+                        casa.printIngredientOrderedMeal();
+                        System.out.println("\nMöchten sie eine weitere Zutat entfernen!\nWenn ja, wählen sie eine Nummer aus!\n" +
+                                "0 ... keine Zutat entfernen!\n");
+                        removeIngredientArrayNumber = scanNum.nextInt();
+                        isRemoveIngredient = casa.removeIngredient(removeIngredientArrayNumber);
+                        correctInput = true;
+                    }
+                } catch (InputMismatchException ignored) {
+                    System.out.println("Da ist ihnen eine falsche Eingabe passiert!");
+                    scanNum = new Scanner(System.in);
+                }
             }
 
-            System.out.println("\nMöchten sie eine Zutat zu ihrer Pizza hinzufügen!\nWenn ja, wählen sie eine Nummer aus!\n 0 ... keine Zutat hinzufügen\n");
+
             int addIngredientArrayNumber = 1;
+            correctInput = false;
 
-            while (addIngredientArrayNumber != 0) {
-                Ingredient.printAddIngredientArray();
-                System.out.println("\n");
-                addIngredientArrayNumber = scanNum.nextInt();
+            while (!correctInput) {
+                try {
+                    System.out.println("\nMöchten sie eine Zutat zu ihrer Pizza hinzufügen!\nWenn ja, wählen sie eine Nummer aus!\n 0 ... keine Zutat hinzufügen\n");
+                    while (addIngredientArrayNumber != 0) {
+                        Ingredient.printAddIngredientArray();
+                        System.out.println("\n");
+                        addIngredientArrayNumber = scanNum.nextInt();
 
-                if(addIngredientArrayNumber > 0) {
-                    casa.addIngredient(addIngredientArrayNumber);
-                    System.out.println("\n\nMöchten sie  eine  weitere Zutat zu ihrer Pizza hinzufügen!\nWenn ja, wählen sie eine Nummer aus!\n 0 ... keine Zutat hinzufügen\n");
-                }
-                if (addIngredientArrayNumber == 0) {
-                    casa.finishOrder();
+                        if (addIngredientArrayNumber != 0) {
+                            System.out.println("\n\nMöchten sie  eine  weitere Zutat zu ihrer Pizza hinzufügen!\nWenn ja, wählen sie eine Nummer aus!\n 0 ... keine Zutat hinzufügen\n");
+                        }
+                        if (addIngredientArrayNumber > 0 && addIngredientArrayNumber <= Ingredient.ingredientCounter) {
+                            casa.addIngredient(addIngredientArrayNumber);
+                        }
+                        if (addIngredientArrayNumber == 0) {
+                            casa.finishOrder();
+                        }
+                        correctInput = true;
+                    }
+                } catch (InputMismatchException ignored) {
+                    System.out.println("Da ist ihnen eine falsche Eingabe passiert!");
+                    scanNum = new Scanner(System.in);
                 }
             }
 
-            System.out.println("\n\nMöchten sie  eine  weitere Pizza bestellen!\n0 ... nein\n1 ... ja\n");
-            controllNumber = scanNum.nextInt();
+            correctInput = false;
+            controlNumber = 2;
+            while (!correctInput) {
+                try {
+                    while (controlNumber < 0 || controlNumber > 1) {
+                        System.out.println("\n\nMöchten sie  eine  weitere Pizza bestellen!\n0 ... nein\n1 ... ja\n");
+                        controlNumber = scanNum.nextInt();
+                        correctInput = true;
+                    }
+                } catch (InputMismatchException ignored) {
+                    System.out.println("Da ist ihnen eine falsche Eingabe passiert!");
+                    scanNum = new Scanner(System.in);
+                }
+            }
         }
 
         if (casa.orderedPizzaCounter > 0) {
             Random rand = new Random();
-            int randomnumber = rand.nextInt(3) + 1;
-            if (randomnumber == 1) {
+            int randomNumber = rand.nextInt(3) + 1;
+            if (randomNumber == 1) {
                 delivery.setDriver(franz);
             }
-            else if (randomnumber == 2) {
+            else if (randomNumber == 2) {
                 delivery.setDriver(iris);
             }
-            else if (randomnumber == 3) {
+            else if (randomNumber == 3) {
                 delivery.setDriver(bernd);
             }
             System.out.println("Danke für ihre Bestellung!\n\nBitte geben sie die Lieferadresse ein!\nBitte den Ort!\n");

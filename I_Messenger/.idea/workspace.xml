@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea1d08f-4caf-450f-888c-afb9e6dd6c56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../GeometrischeFormen_abstract/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GeometrischeFormen_abstract/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Auto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firma/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Firma/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I_Shop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../I_Shop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I_Shop/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../I_Shop/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lieferservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lieferservice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Musiker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Musiker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tankstelle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tankstelle/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

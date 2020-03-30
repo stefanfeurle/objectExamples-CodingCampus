@@ -1,0 +1,7 @@
+Vorname;Zuname;Auto;Art von Kosten;Kosten
+Franz;Welte;BMW X5;Tanken;75.60
+Franz;Welte;BMW X5;Service;590.00
+Franz;Welte;BMW X5;Reifen;550.00
+Bernd;Pühringer;KIA Ceed;Service;490.00
+Bernd;Pühringer;KIA Ceed;Reifen;450.00
+Bernd;Pühringer;KIA Ceed;Tanken;58.80

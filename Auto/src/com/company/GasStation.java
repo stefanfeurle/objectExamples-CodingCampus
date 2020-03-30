@@ -27,18 +27,19 @@ public class GasStation {
         if (price * liter > car.owner.cash) {
             liter = car.owner.cash / price;
             if (liter == 0) {
-                System.out.println("Sie haben kein Geld um Treibstoff zu kaufen!");
+                System.out.println("\nSie haben kein Geld um Treibstoff zu kaufen!");
             }
             else if (liter > 0) {
-                System.out.println("Sie können nicht so viel tanken, weil sie nicht so viel Geld dabei haben!");
+                System.out.println("\nSie können nicht so viel tanken, weil sie nicht so viel Geld dabei haben!");
             }
         }
         if (liter > 0) {
             car.fuelLevel += liter;
             car.owner.cash -= (liter * price);
             this.cash += liter * price;
-            System.out.println("Die Tankstelle " + this.name + " hat für " + String.format("%.2f", liter) + " Liter " + myFuelName + " " +
-                    String.format("%.2f", liter * price) + " € von " + car.owner.firstname + " " + car.owner.lastname + " verlangt!");
+            System.out.println("\nDie Tankstelle " + this.name + " hat für " + String.format("%.2f", liter) + " Liter " + myFuelName + " " +
+                    String.format("%.2f", liter * price) + " € von " + car.owner.firstName + " " + car.owner.lastName + " verlangt!");
+            car.writeInFile(car, "Tanken", liter * price);
         }
     }
 }

@@ -1,5 +1,11 @@
 package com.company;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+
 public class Car {
     String brand;
     Person owner;
@@ -59,7 +65,7 @@ public class Car {
             }
         }
         if (possibleKmToDrive < kmToDrive) {
-            System.out.println("Car stopped! Bitte tanken!");
+            System.out.println("\nCar stopped! Bitte tanken!");
             fuelLevel = 0;
         }
     }
@@ -80,6 +86,19 @@ public class Car {
         serviceStation.serviceChangeTires(this, tires);
     }
     */
+    public void writeInFile(Car car, String kindOfCosts, double price) {
+        BigDecimal bigDecimal = new BigDecimal(price);
+        BigDecimal bdPrice = bigDecimal.setScale(2, RoundingMode.HALF_UP);
+
+        File carFile = new File("C:\\Users\\DCV\\stefan\\IdeaProjects\\CodingCampus\\Objekte\\Auto.txt");
+        try {
+            FileWriter fileWriter = new FileWriter(carFile, true);
+            fileWriter.write("\n" + car.owner.firstName + ';' + car.owner.lastName + ';' + car + ';' + kindOfCosts + ';' + bdPrice);
+            fileWriter.close();
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
+    }
 
     @Override
     public String toString() {
@@ -95,10 +114,9 @@ public class Car {
     }
 
     public String getFuelLevelText() {
-        String output = "Im Tank des " + this.brand + " befinden sich noch " + String.format("%.2f", this.fuelLevel) +
+        return "Im Tank des " + this.brand + " befinden sich noch " + String.format("%.2f", this.fuelLevel) +
                 " Liter " + FuelClass.getMyFuelName(this.fuel) +
-                "! (ca. " + String.format("%.0f", this.fuelLevel/this.fuelConsumption) + " Kilometer)";
-        return output;
+                "! (ca. " + String.format("%.0f", this.fuelLevel/ this.fuelConsumption) + " Kilometer)";
     }
 
     public int getMileage() {
@@ -106,8 +124,7 @@ public class Car {
     }
 
     public String getMileageText() {
-        String output = "Kilometerstand des " + this.brand + ": " + this.mileage + " Kilometer";
-        return output;
+        return "Kilometerstand des " + this.brand + ": " + this.mileage + " Kilometer";
     }
 
     public int getTiresRestLifespan(){
@@ -115,9 +132,8 @@ public class Car {
     }
 
     public String getTiresRestLifespanText() {
-        String output = "Mit dem Reifen von " + this.tires.tiresBrand + " kannst du noch ca. " +
+        return "Mit dem Reifen von " + this.tires.tiresBrand + " kannst du noch ca. " +
                 this.tires.tiresRestLifespan + " Kilometer fahren!";
-        return output;
     }
 
     public int getServiceIntervalCounter() {
@@ -125,7 +141,6 @@ public class Car {
     }
 
     public String getServiceIntervalCounterText() {
-        String output = "Der Service des " + this.brand + " ist in " + serviceIntervalCounter + " Kilometer fällig!";
-        return output;
+        return "Der Service des " + this.brand + " ist in " + serviceIntervalCounter + " Kilometer fällig!";
     }
 }
