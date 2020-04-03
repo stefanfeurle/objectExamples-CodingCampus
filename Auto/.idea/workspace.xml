@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c2059fc-0dbd-4a93-9c46-e18a9ebdb11e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Auto/com/company/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Auto/com/company/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Auto/com/company/GasStation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Auto/com/company/GasStation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Auto/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Auto/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Auto/com/company/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Auto/com/company/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Auto/com/company/ServiceStation$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Auto/com/company/ServiceStation$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Auto/com/company/ServiceStation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Auto/com/company/ServiceStation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/GasStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/GasStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ServiceStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ServiceStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Firma/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Firma/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I_Messenger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../I_Messenger/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lieferservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lieferservice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lieferservice/out/production/Lieferservice/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lieferservice/out/production/Lieferservice/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lieferservice/out/production/Lieferservice/com/company/Pizzeria.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lieferservice/out/production/Lieferservice/com/company/Pizzeria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lieferservice/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lieferservice/src/com/company/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="7c2059fc-0dbd-4a93-9c46-e18a9ebdb11e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
