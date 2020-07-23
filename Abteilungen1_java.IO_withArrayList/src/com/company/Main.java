@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<Department> departmentArrL = new ArrayList<>();
         int lineCounter = 0;
-        File departmentFile = new File("C:\\Users\\DCV\\stefan\\IdeaProjects\\CodingCampus\\Objekte\\Abteilungen1.txt");
+        File departmentFile = new File("C:\\Users\\DCV\\stefan\\IdeaProjects\\CodingCampus\\2. Objekte\\Abteilungen1.txt");
 
         try {
             FileReader fileReader = new FileReader(departmentFile);

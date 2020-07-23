@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7ea1d08f-4caf-450f-888c-afb9e6dd6c56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Auto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Firma/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Firma/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Auto/src/com/company/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/src/com/company/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lieferservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lieferservice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tankstelle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tankstelle/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +33,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../kommentierte Dateien/Auto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">

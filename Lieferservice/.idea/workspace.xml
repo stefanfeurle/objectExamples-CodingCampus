@@ -3,23 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2b2fbdc5-ebef-4b2f-b875-ee9d3c71356a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Auto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/GasStation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/GasStation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/ServiceStation$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/ServiceStation$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/ServiceStation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/out/production/Auto/com/company/ServiceStation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Auto/src/com/company/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/src/com/company/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto/src/com/company/GasStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/src/com/company/GasStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto/src/com/company/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/src/com/company/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Auto/src/com/company/ServiceStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Auto/src/com/company/ServiceStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Firma/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Firma/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../I_Messenger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../I_Messenger/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lieferservice/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lieferservice/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lieferservice/com/company/Pizzeria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lieferservice/com/company/Pizzeria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tankstelle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tankstelle/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
@@ -153,10 +141,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="93" y="93" width="1521" height="735" key="com.intellij.history.integration.ui.views.FileHistoryDialog/2560.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1584128355051" />
-    <state x="304" y="82" key="new project wizard" timestamp="1584348463324">
+    <state x="304" y="82" key="new project wizard" timestamp="1587285203105">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="304" y="82" key="new project wizard/2560.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1584348463324" />
+    <state x="304" y="82" key="new project wizard/2560.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1587285203105" />
     <state x="561" y="90" key="refactoring.ChangeSignatureDialog" timestamp="1583936208510">
       <screen x="0" y="0" width="1707" height="920" />
     </state>

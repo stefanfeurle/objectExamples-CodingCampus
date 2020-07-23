@@ -81,7 +81,7 @@ public class Car {
     public void goChangeTires(ServiceStation serviceStation, Tires tires) {
         serviceStation.serviceChangeTires(this,tires);
     }
-    public void goChangeTiresInkludedService(ServiceStation serviceStation, Tires tires) {
+    public void goChangeTiresIncludedService(ServiceStation serviceStation, Tires tires) {
         serviceStation.serviceService(this);
         serviceStation.serviceChangeTires(this, tires);
     }
